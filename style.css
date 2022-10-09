@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.navBar {
+    background: #f7f7f7;
+    padding: 0 8vw;
+    border-top: 10px solid #00774b;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.wrapper {
+    margin-top: 1.2rem;
+
+}
+
+.menus {
+    letter-spacing: 2px;
+    color: #242221;
+    font-size: 13.3px;
+    font-family: 'Lato', sans-serif;
+}
+
+.menus li {
+    padding: 8px;
+}
+
+.menus li:hover {
+    padding: 0.5rem 0.5rem;
+    color: white;
+    background-color: #1e1e1e;
+}
+
+.heroImage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.latteSection{
+    margin: 5rem 7rem;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 40%;
+}
+
+.right > h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.right > p{
+    margin-top: 1.5rem;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-style: italic;
+    font-size: 17px;
+    text-align: left;
+}
+
+
+.latteSection2{
+    margin: 7rem 7rem;
+}
+
+.latteSection2 > .left{
+    width: 40%;
+}
+
+.latteSection2 > .right{
+    width: 40%;
+}
+
+.latteSection2 .right > h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.latteSection2 .right > p{
+    margin-top: 1.5rem;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-style: italic;
+    font-size: 17px;
+    text-align: left;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    border-bottom: 8px solid #382F2D;
+    background: #f7f7f7;
+    color: #382f2d;
+    font-size: 1em;
+    line-height: 1.090909;
+}
+
+.footer-top {
+    background-color: #f0f0f0;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    padding: 25px 0;
+}
+
+.socialImages{
+    list-style: none;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.facebook,.twitter,.instagram{
+    font-size: 40px;
+}
+
+.lastImage > img{
+    height: 150px;
+}
+
+.footer-main{
+    margin: 4rem 6rem;
+}
+
+.footer-bottom{
+    margin: 4rem 8rem;
+}
+
+.footer_sub{
+    font-family: 'Lato', sans-serif;
+}
+
