@@ -18,26 +18,52 @@
     <nav class="navBar w-100">
         <div class="wrapper">
             <div class="navUpper list-style-none d-flex justify-between">
-                <li><img src="./assets/logo.png" class="item-center" alt="Logo"></li>
-                <li style="align-items:flex-start; font-size: 17px; color: #5B5959; font-family: 'Lato', sans-serif;"><i
+                <li><img src="./assets/logo.png" class="item-center" style="cursor: pointer;" alt="Logo"></li>
+                <li style="align-items:flex-start; font-size: 17px; color: #5B5959; cursor: pointer; font-family: 'Lato', sans-serif;"><i
                         class="fa-solid fa-location-dot text-green"></i>&nbsp; Find A Store</li>
             </div>
             <br>
             <div class="menus">
-                <ul id="menuItems" class="d-flex justify-between mx-0_7 list-style-none">
-                    <li>COFFEE</li>
-                    <li>MENU</li>
-                    <li>COFFEEHOUSE</li>
-                    <li>RESPONSIBILITY</li>
+                <ul id="menuItems" class="d-flex justify-between mx-0_7 list-style-none flex-wrap" style="cursor: pointer;">
+                    <li id="MenuCoffee">COFFEE</li>
+                    <li id="Menuh">MENU</li>
+                    <li id="coffehouse">COFFEEHOUSE</li>
+                    <li id="responsibility">RESPONSIBILITY</li>
                     <li>REWARDS</li>
                     <li>CAREERS</li>
                     <li>STARBUCKS SEASON'S GIFTINGSTARBUCKS</li>
                     <li>STARBUCKS DELIVERS</li>
-                    <li>ABOUT US</li>
+                    <li id="about">ABOUT US</li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <div class="hamburger" id="getCoffee" >
+        <div class="container">
+            <img class="coffee" src="./assets/cofeeHover.png" alt="">
+        </div>
+    </div>
+    <div class="hamburger" id="getMenu" >
+        <div class="container">
+            <img class="coffee" src="./assets/menuHover.png" alt="">
+        </div>
+    </div>
+    <div class="hamburger" id="getcoffehouse" >
+        <div class="container">
+            <img class="coffee" src="./assets/coffehousehover.png" alt="">
+        </div>
+    </div>
+    <div class="hamburger" id="getrespons" >
+        <div class="container">
+            <img class="coffee" src="./assets/responsibilityHover.png" alt="">
+        </div>
+    </div>
+    <div class="hamburger" id="getabout" >
+        <div class="container">
+            <img class="coffee" src="./assets/aboutHover.png" alt="">
+        </div>
+    </div>
 
     <!-- hero Section -->
     <div class="heroImage d-flex justify-center">
@@ -169,5 +195,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./app.js"></script>
 </html>

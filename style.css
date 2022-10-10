@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -40,61 +41,61 @@
     background-color: #1e1e1e;
 }
 
-.heroImage{
+.heroImage {
     width: 100%;
     overflow: hidden;
 }
 
-.latteSection{
+.latteSection {
     margin: 5rem 7rem;
 }
 
-.left{
+.left {
     width: 40%;
 }
 
-.right{
+.right {
     width: 40%;
 }
 
-.right > h3{
+.right>h3 {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
-.right > p{
+.right>p {
     margin-top: 1.5rem;
-    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-family: 'Crete Round', Georgia, 'Times New Roman', serif;
     font-style: italic;
     font-size: 17px;
     text-align: left;
 }
 
 
-.latteSection2{
+.latteSection2 {
     margin: 7rem 7rem;
 }
 
-.latteSection2 > .left{
+.latteSection2>.left {
     width: 40%;
 }
 
-.latteSection2 > .right{
+.latteSection2>.right {
     width: 40%;
 }
 
-.latteSection2 .right > h3{
+.latteSection2 .right>h3 {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
-.latteSection2 .right > p{
+.latteSection2 .right>p {
     margin-top: 1.5rem;
-    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-family: 'Crete Round', Georgia, 'Times New Roman', serif;
     font-style: italic;
     font-size: 17px;
     text-align: left;
@@ -117,29 +118,73 @@ footer {
     padding: 25px 0;
 }
 
-.socialImages{
+.socialImages {
     list-style: none;
     padding: 0 5%;
     gap: 20px;
 }
 
-.facebook,.twitter,.instagram{
+.facebook,
+.twitter,
+.instagram {
     font-size: 40px;
 }
 
-.lastImage > img{
+.lastImage>img {
     height: 150px;
 }
 
-.footer-main{
+.footer-main {
     margin: 4rem 6rem;
 }
 
-.footer-bottom{
+.footer-bottom {
     margin: 4rem 8rem;
 }
 
-.footer_sub{
+.footer_sub {
     font-family: 'Lato', sans-serif;
 }
 
+
+.hamburger {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #1e1e1e;
+}
+
+.coffee {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuh {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cofeehouse {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposibility {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

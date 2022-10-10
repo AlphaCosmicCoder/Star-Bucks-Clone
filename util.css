@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.d-none{
+    display: none;
+}
+
 .item-center{
     align-items: center;
 }
@@ -28,6 +32,10 @@
 
 .flex-row{
     flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .list-style-none{
